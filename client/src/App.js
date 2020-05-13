@@ -5,7 +5,7 @@ import { Container } from 'reactstrap';
 
 import Books from './pages/Books';
 import Saved from './pages/Saved';
-import NavMenu from './components/NavMenu';
+import NavBar from './components/NavBar';
 
 import './App.css';
 
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <div className='application'>
-        <NavMenu />
+        <NavBar />
         <main className='main'>
           <Container>
             <div className='wrapper'>
